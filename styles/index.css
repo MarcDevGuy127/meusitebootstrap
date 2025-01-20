@@ -124,7 +124,8 @@ div.divid ul li {
 }
 
 button#theme-toggle {
-  position: fixed;
+  display: block; /* Garante que o botão seja tratado como bloco */
+  margin-left: auto; /* Empurra o botão para o lado direito */
 }
 
 /*Testing xbox360 green bar selection effect */

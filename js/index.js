@@ -82,10 +82,14 @@ document.addEventListener("DOMContentLoaded", function () {
     body.setAttribute("data-bs-theme", savedTheme);
     themeToggleButton.innerHTML =
       savedTheme === "dark"
-        ? '<i class="bi bi-sun"></i> Modo Claro'
-        : '<i class="bi bi-moon"></i> Modo Escuro';
+        ? '<i class="bi bi-sun"></i>'
+        : '<i class="bi bi-moon"></i>';
   }
-
+/**  Lado A do botão
+ * newTheme === "dark"
+ *      ? '<i class="bi bi-sun"></i> Modo Claro'
+        : '<i class="bi bi-moon"></i> Modo Escuro';
+ */
   // Adiciona o evento de clique ao botão
   themeToggleButton.addEventListener("click", function () {
     const currentTheme = body.getAttribute("data-bs-theme");
@@ -97,9 +101,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Atualiza o texto e ícone do botão
     this.innerHTML =
       newTheme === "dark"
-        ? '<i class="bi bi-sun"></i> Modo Claro'
+        ? '<i class="bi bi-sun"></i>'
+        : '<i class="bi bi-moon"></i>';
+/**  Lado B do botão
+ * newTheme === "dark"
+ *      ? '<i class="bi bi-sun"></i> Modo Claro'
         : '<i class="bi bi-moon"></i> Modo Escuro';
-
+ */
     // Salva a preferência no localStorage
     localStorage.setItem("theme", newTheme);
   });
@@ -148,12 +156,12 @@ addFooter(`
                 <h5 class="mb-3">Redes Sociais</h5>
               </div>
               <div>
-                <a href="#" class="text-light me-3 fs-4"><i class="bi bi-github"></i></a>
-                <a href="#" class="text-light me-3 fs-4"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/MarcDevGuy127" class="text-light me-3 fs-4"><i class="bi bi-github"></i></a>
+                <a href="www.linkedin.com/in/marcelo-henrique-costa-da-silva-723497225" class="text-light me-3 fs-4"><i class="bi bi-linkedin"></i></a>
                 <a href="#" class="text-light me-3 fs-4"><i class="bi bi-twitter"></i></a>
               </div>
               <p class="mt-3">
-                <i class="bi bi-envelope"></i> <a href="mailto:marcelohenrique.linkedin@gmail.com" class="text-light text-decoration-none">marcelohenrique.linkedin@gmail.com</a>
+                <i class="bi bi-envelope"></i> <a href="mailto:marceloh.github@gmail.com" class="text-light text-decoration-none">marceloh.github@gmail.com</a>
               </p>
             </div>
           </div>
