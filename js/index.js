@@ -37,18 +37,6 @@ addCabecalho(`
             <li><a href="/test.html">Test Page</a></li>
           </ul>
         </div>
-        <li class="nav-item dropdown"><!--Dropdown Botao-->
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Social Media
-            </a>
-            <ul class="dropdown-menu"><!--Botao Nome Negrito-->
-              <li><a class="dropdown-item" href="#">Gmail</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="https://discord.com">Discord</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><ion-icon name="logo-linkedin"></ion-icon><a class="dropdown-item" href="https://www.linkedin.com/in/marcelo-henrique-costa-da-silva-723497225/">Linkedin</a></li>
-            </ul>
-        </li>
         <form class="d-flex" role="search">
           <input class="form-control-me 2" id="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
