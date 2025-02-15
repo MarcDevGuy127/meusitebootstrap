@@ -18,7 +18,7 @@ addCabecalho(`
     <link rel="stylesheet" type="text/css" href="/styles/index.css" media="screen" />
   </head>
   <header>
-    <nav class="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
       <div class="container-fluid">
         <a class="navbar-brand" href="/index.html">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-github"
@@ -28,21 +28,47 @@ addCabecalho(`
           </svg>
           MarcDevGuy127
         </a>
-        <div class="divid">
-          <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/projects.html">My Projects</a></li>
-            <li><a href="/curriculum.html">Curriculum</a></li>
-            <li><a href="/hireme.html">Hire Me</a></li>
-            <li><a href="/test.html">Test Page</a></li>
-          </ul>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/test.html">Test</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/curriculum.html">Curriculum</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/hireme.html">Hire Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Suport Me</a></li>
+                  <li><a class="dropdown-item" href="#">About Me</a></li>
+                  <li><a class="dropdown-item" href="#">Hire Me</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3 mt-lg-0" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-        <form class="d-flex" role="search">
-          <input class="form-control-me 2" id="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
-    </nav>
+    </nav>  
   </header>
 `);
 
