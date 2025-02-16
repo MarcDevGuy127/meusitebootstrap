@@ -156,11 +156,11 @@ addFooter(`
                 <h5 class="mb-3">Navegação</h5>
               </div>
               <ul id="nav-footer">
-                <li><span><a href="/index.html" class="text-light text-decoration-none">Home</a></span></li>
-                <li><span><a href="/projects.html" class="text-light text-decoration-none">My Projects</a></span></li>
-                <li><span><a href="/curriculum.html" class="text-light text-decoration-none">Curriculum</a></span></li>
-                <li><span><a href="/hireme.html" class="text-light text-decoration-none">Hire Me</a></span></li>
-                <li><span><a href="/test.html" class="text-light text-decoration-none">Test Page</a></span></li>
+                <li><span><a href="/index.html" class="text-light text-decoration-none">Home Test</a></span></li>
+                <li><span><a href="/projects.html" class="text-light text-decoration-none">My Projects Test</a></span></li>
+                <li><span><a href="/curriculum.html" class="text-light text-decoration-none">Curriculum Test</a></span></li>
+                <li><span><a href="/hireme.html" class="text-light text-decoration-none">Hire Me Test</a></span></li>
+                <li><span><a href="/test.html" class="text-light text-decoration-none">Test Page Test</a></span></li>
               </ul>
             </div>
       
