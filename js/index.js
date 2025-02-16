@@ -36,19 +36,19 @@ addCabecalho(`
           <div class="offcanvas-body">
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">Home Test</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/projects.html">Projects</a>
+                <a class="nav-link active" aria-current="page" href="/projects.html">Projects Test</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/test.html">Test</a>
+                <a class="nav-link active" aria-current="page" href="/test.html">Test Test</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/curriculum.html">Curriculum</a>
+                <a class="nav-link active" aria-current="page" href="/curriculum.html">Curriculum Test</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/hireme.html">Hire Me</a>
+                <a class="nav-link active" aria-current="page" href="/hireme.html">Hire Me Test</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -156,11 +156,11 @@ addFooter(`
                 <h5 class="mb-3">Navegação</h5>
               </div>
               <ul id="nav-footer">
-                <li><span><a href="/index.html" class="text-light text-decoration-none">Home</a></span></li>
-                <li><span><a href="/projects.html" class="text-light text-decoration-none">My Projects</a></span></li>
-                <li><span><a href="/curriculum.html" class="text-light text-decoration-none">Curriculum</a></span></li>
-                <li><span><a href="/hireme.html" class="text-light text-decoration-none">Hire Me</a></span></li>
-                <li><span><a href="/test.html" class="text-light text-decoration-none">Test Page</a></span></li>
+                <li><span><a href="/index.html" class="text-light text-decoration-none">Home Test</a></span></li>
+                <li><span><a href="/projects.html" class="text-light text-decoration-none">My Projects Test</a></span></li>
+                <li><span><a href="/curriculum.html" class="text-light text-decoration-none">Curriculum Test</a></span></li>
+                <li><span><a href="/hireme.html" class="text-light text-decoration-none">Hire Me Test</a></span></li>
+                <li><span><a href="/test.html" class="text-light text-decoration-none">Test Page Test</a></span></li>
               </ul>
             </div>
       
