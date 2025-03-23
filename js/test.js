@@ -1,13 +1,13 @@
-document.getElementById("contact-form").addEventListener("submit", function(event) {
+document.getElementById("contact-form").addEventListener("submit", function (event) {
   event.preventDefault(); // Impede o comportamento padrão do formulário
-  
+
   const successMessage = document.getElementById("success-message");
-  
+
   // Exibe a notificação com animação de entrada
   successMessage.classList.remove("hide");
   successMessage.classList.add("show");
   successMessage.style.display = "block"; // Torna visível
-  
+
   // Esconde a notificação com animação de saída após 3 segundos
   setTimeout(() => {
     successMessage.classList.remove("show");
@@ -16,7 +16,7 @@ document.getElementById("contact-form").addEventListener("submit", function(even
 });
 
 //alterando cor do card de acordo com o tema do site
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
   const blurredCard = document.getElementById("blurred-card");
   const themeToggleButton = document.getElementById("theme-toggle");
 
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
   themeToggleButton.innerHTML = savedTheme === "dark" ? '<i class="bi bi-sun"></i>' : '<i class="bi bi-moon"></i>';
 
   // Evento de clique para alternar o tema
-  themeToggleButton.addEventListener("click", function() {
+  themeToggleButton.addEventListener("click", function () {
     // Alterna o tema
     const newTheme = savedTheme === "dark" ? "white" : "dark";
 
