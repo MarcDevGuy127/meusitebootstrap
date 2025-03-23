@@ -1,8 +1,13 @@
 body div.card-group {
     display: flex;
-    justify-content: center;
-    /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza horizontalmente */
     margin: 0 auto;
+}
+
+img#video_preview {
+    filter: blur(2px); /* Adjust the blur radius as needed */
+    width: 100%; /* Ensure the image scales properly */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .card {
