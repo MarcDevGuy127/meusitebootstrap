@@ -20,138 +20,251 @@
       href="/styles/index.css"
       media="screen"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/projects.css"
+      media="screen"
+    />
   </head>
   <header><div id="cabecalho"></div></header>
   <body>
     <!-- Botão de Alternância de Tema -->
     <button id="theme-toggle" class="btn btn-secondary">
-      <i class="bi bi-moon"></i> Modo Escuro
+      <i class="bi bi-moon"></i>
     </button>
-    <h1>My Projects!</h1>
-    <div
-      class="card-group"
-      style="
-        max-width: 60%;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-      "
-    >
-      <div class="card">
-        <img
-          src="/images/closed.png"
-          class="card-img-top"
-          alt="Project in progress"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Asteroids Game</h5>
-          <p class="card-text">
-            This is a space game developed with Java. This project is inspired
-            in one of the most famous retro games around the world.
-          </p>
+    <div class="container my-5">
+      <h1 class="text-center mb-4 pt-3">My Projects</h1>
+      <div
+        class="container my-5 row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4"
+      >
+        <!-- Project 1 -->
+        <div id="project_card" class="col">
+          <div class="col card h-100">
+            <img
+              id="video_preview"
+              src="/images/cat.gif"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 1</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+            <span class="d-flex justify-content-end"><button class="btn p-2">View More
+              <i class="bi bi-info-circle"></i>
+            </button></span>
+          </div>
         </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
+
+        <!-- Project 2 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 2</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img
-          src="/images/closed.png"
-          class="card-img-top"
-          alt="Project in progress"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Windows Workspace</h5>
-          <p class="card-text">
-            This Web project is a simple interative Windows Workspace using
-            frameworks like: Metro UI , Windows UI and Vue.js.
-          </p>
+
+        <!-- Project 3 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 3</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
         </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
+
+        <!-- Project 4 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 4</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img
-          src="/images/closed.png"
-          class="card-img-top"
-          alt="Project in progress"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Portugol</h5>
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
-          </p>
+
+        <!-- Project 5 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 5</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
         </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
+
+        <!-- Project 6 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 6</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 7 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 7</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 8 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 8</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 9 -->
+        <div id="project_card" class="col">
+          <div class="card h-100">
+            <img
+              src="/images/closed.png"
+              class="card-img-top"
+              alt="Project 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Project Title 9</h5>
+              <p class="card-text">
+                This is a brief description of the project. It explains what the
+                project is about and its purpose.
+              </p>
+              <div class="mb-3">
+                <span class="badge rounded-pill bg-primary">HTML</span>
+                <span class="badge rounded-pill bg-secondary">CSS</span>
+                <span class="badge rounded-pill bg-success">JavaScript</span>
+              </div>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div
-      class="card-group"
-      style="
-        max-width: 60%;
-        display: flex;
-        justify-content: center;
-        margin: 0 auto;
-      "
-    >
-      <div class="card">
-        <img
-          src="/images/closed.png"
-          class="card-img-top"
-          alt="Project in progress"
-        />
-        <div class="card-body">
-          <h5 class="card-title">The Walk</h5>
-          <p class="card-text">
-            This is a sci-fi game developed with Unreal Engine 5. This project
-            is on development and suported by Steam.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="/images/closed.png"
-          class="card-img-top"
-          alt="Project in progress"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Portal Crossing</h5>
-          <p class="card-text">
-            This is a sci-fi game developed with Unity Engine. This project is
-            on development and suported by Steam.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
-        </div>
-      </div>
-      <div class="card">
-        <img
-          src="/images/closed.png"
-          class="card-img-top"
-          alt="Project in progress"
-        />
-        <div class="card-body">
-          <h5 class="card-title">The Follower</h5>
-          <p class="card-text">
-            This is a 3D horror game developed with Godot Engine. This project
-            is on development and suported by Steam.
-          </p>
-        </div>
-        <div class="card-footer">
-          <small class="text-body-secondary">Last updated 3 mins ago</small>
-        </div>
-      </div>
-    </div>
+    <nav aria-label="Page navigation example">
+      <ul class="pagination" id="pagination"></ul>
+    </nav>
     <div id="footer"></div>
+    <!--Localização do arquivo JS-->
+    <script src="js/projects.js" id="pagination"></script>
     <!--Localização do arquivo JS-->
     <script src="js/index.js" id="scripts"></script>
     <!--Link para JS do Bootstrap!-->
